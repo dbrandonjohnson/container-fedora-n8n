@@ -1,4 +1,4 @@
-FROM quay.io/opentech/fedora-nodejs:nodejs18
+FROM quay.io/opentech/fedora-nodejs:nj18
 
 WORKDIR /opt/node
 
