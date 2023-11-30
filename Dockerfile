@@ -1,8 +1,8 @@
-FROM quay.io/opentech/fedora-nodejs:nj18
+FROM quay.io/opentech/fedora-nodejs:latest
 
 WORKDIR /opt/node
 
-RUN npm install n8n@1.11.2
+RUN npm install n8n@1.18.0
 RUN mkdir -p /opt/node/bin
 RUN ln -s /opt/node/node_modules/n8n/bin/n8n /opt/node/bin/n8n 
 
